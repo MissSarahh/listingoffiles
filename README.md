@@ -308,4 +308,4 @@ WebDAV 目录 `http://localhost:33001/webdav`
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?https://github.com/MissSarahh/listingoffiles-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MissSarahh/listingoffiles-heroku)
