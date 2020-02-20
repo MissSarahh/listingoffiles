@@ -2,8 +2,8 @@
  * github
  * github 列目录
  * 支持标识 ：
- *  user                  -> reruin
- *  user/repo             -> reruin/sharelist
+ *  user                  -> MissSarahh
+ *  user/repo             -> MissSarahh/listingoffiles
  * 仅支持公开库 
  */
 
