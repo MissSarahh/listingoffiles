@@ -1,8 +1,8 @@
 version: "3"
 services:
   sharelist:
-    image: reruin/sharelist
+    image: MissSarahh/listingoffiles
     volumes:
-      - $HOME/sharelist:/sharelist/cache
+      - $HOME/listingoffiles:/listingoffiles/cache
     ports:
       - "33001:33001"
