@@ -1,9 +1,9 @@
 FROM node:8-alpine
-MAINTAINER reruin
+MAINTAINER MissSarahh
 
-ADD . /sharelist/
-WORKDIR /sharelist
-VOLUME /sharelist/cache
+ADD . /listingoffiles/
+WORKDIR /listingoffiles
+VOLUME /listingoffiles/cache
 
 RUN npm install
 
