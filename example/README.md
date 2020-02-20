@@ -224,7 +224,7 @@ bash install.sh
 ```
 远程安装 / Netinstall
 ```bash
-wget --no-check-certificate -qO-  https://raw.githubusercontent.com/reruin/sharelist/master/netinstall.sh | bash
+wget --no-check-certificate -qO-  https://raw.githubusercontent.com/MissSarahh/listingoffiles/master/netinstall.sh | bash
 ```
 更新 / Update
 ```bash
@@ -233,9 +233,9 @@ bash update.sh
 
 ### Docker support
 ```bash
-docker build -t yourname/sharelist .
+docker build -t yourname/listingoffiles .
 
-docker run -d -v /etc/sharelist:/app/cache -p 33001:33001 --name="sharelist" yourname/sharelist
+docker run -d -v /etc/listingoffiles:/app/cache -p 33001:33001 --name="listingoffiles" MissSarahh/listingoffiles
 ```
 
 OR
@@ -250,4 +250,4 @@ WebDAV 目录 `http://localhost:33001/webdav`
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/reruin/sharelist-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MissSarahh/listingoffiles-heroku)
